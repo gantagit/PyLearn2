@@ -13,7 +13,8 @@ print(min(a, b))
 # snake case
 first_name = "Vijay"
 last_name = "Ganta"
-print(first_name, last_name)
+full_name = first_name + last_name
 
-
+print(full_name)
+print(type(full_name))
 
