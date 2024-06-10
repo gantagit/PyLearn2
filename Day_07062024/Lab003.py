@@ -7,6 +7,9 @@ total = num1 + num2  # str concatenation (by default input returns string)
 sum_of_two_numbers = int(num1) + int(num2)  # converted to int and it will be sum here
 print("The sum is : ", total, sum_of_two_numbers, sep="\n")
 
+print("The sum is : ", int(total), sep="\n")
+print(type(int(num1)))
+print(int(num1))
 
 # +  ->  int sum operation
 # +  ->  str concatenation operation
