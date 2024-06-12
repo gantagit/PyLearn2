@@ -24,3 +24,11 @@ x = 36
 y = -1
 z = x + y # BODMAS principle in math
 print("value of x = {}, y = {},  z = {}".format(x, y, z))
+
+# NOT operator
+is_active_student = True
+print("is_active_student = {}".format(is_active_student))
+print("NOT of is_active_student = {}".format(not is_active_student))
+
+#
+
