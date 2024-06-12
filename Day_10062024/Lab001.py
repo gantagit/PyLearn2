@@ -1,5 +1,9 @@
 # Literals and Operators
 
+# Two  types of literals
+# 1. Boolean Literal
+# 2. Character Literal
+
 # Literals
 a = 10  # var name = variable_value
 # van_name -> identifier, here a  is identifier
