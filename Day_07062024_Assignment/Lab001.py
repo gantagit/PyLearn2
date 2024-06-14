@@ -1,2 +1,2 @@
-# All the functions of the listOf
+# All the functions of the list
 

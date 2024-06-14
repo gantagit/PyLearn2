@@ -30,5 +30,9 @@ is_active_student = True
 print("is_active_student = {}".format(is_active_student))
 print("NOT of is_active_student = {}".format(not is_active_student))
 
-#
+# IS Operator
+print("IS operator")
 
+list1 = [1, 2, 3, 4, 5]
+list2 = [1, 2, 3, 4, 6]
+print(list1 is list2)
