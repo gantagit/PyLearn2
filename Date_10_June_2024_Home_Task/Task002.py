@@ -16,4 +16,3 @@ print("Cube of a number is ",  math.pow(number, 3))
 # b = int(input("Enter value for variable b: \t"))
 a, b = int(input("Enter value for variable a : \n")), int(input("Enter value for variable b : \n"))
 print("a is greater than b" if a > b else "a is lesser than b" if a < b else "a is equal to b")
-
