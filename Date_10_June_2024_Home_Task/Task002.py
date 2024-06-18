@@ -3,11 +3,10 @@
 
 # solution for first problem of this task
 import math
-
 number = float(input("Enter a number: "))
 print("Square of a number is ", math.pow(number, 2))
 print("Cube of a number is ",  math.pow(number, 3))
-
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Using Ternary Operator, Create a program that takes two numbers as input and prints 4
 # whether the first number is greater than, less than, or equal to the second number
 
