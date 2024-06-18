@@ -12,7 +12,8 @@ print("Cube of a number is ",  math.pow(number, 3))
 # whether the first number is greater than, less than, or equal to the second number
 
 # solution for second problem of this task
-a = int(input("Enter value for variable a: \t"))
-b = int(input("Enter value for variable b: \t"))
+# a = int(input("Enter value for variable a: \t"))
+# b = int(input("Enter value for variable b: \t"))
+a, b = int(input("Enter value for variable a: \t")), int(input("Enter value for variable b: \t"))
 print("a is greater than b" if a > b else "a is lesser than b" if a < b else "a is equal to b")
 
