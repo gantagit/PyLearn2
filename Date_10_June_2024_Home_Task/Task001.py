@@ -15,4 +15,13 @@ print("a power of b is ", (a**b))
 # print("a power of b is ", math.pow(a,b))
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # 3) What does the ^ operator do in python, and in what context is it commonly used
+# ^ is a bit wise XOR operator
+# XOR operator is used to perform bitwise XOR operation on the operands
+# example x = 5 (101 in binary) and y = 3 (011 in binary)
+# then x ^ y = 6 (110 in binary)
+x = 5
+y = 3
+print("XOR of {},{} =  {}".format(x, y, x^y))  # Output: XOR of a, b = 6.format(x, y, x^y))
+
+
 
