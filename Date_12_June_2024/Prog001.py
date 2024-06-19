@@ -1,1 +1,0 @@
-# Program to check the If else condition
