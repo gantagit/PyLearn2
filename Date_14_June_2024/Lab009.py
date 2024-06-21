@@ -1,18 +1,8 @@
 # functions with examples
 def arithmetic_operations(a, b):
-    add = a + b
-    sub = a - b
-    mul = a * b
-    div = a / b
-    mod = a % b
-    print("Addition is: ", add)
-    print("Subtraction is: ", sub)
-    print("Multiplication is: ", mul)
-    print("Division is: ", div)
-    print("Modulus is: ", mod)
-    return add, sub, mul, div, mod
+    print("Addition is: ", a + b, "\nSubtraction is: ", a - b,
+          "\nMultiplication is: ", a * b, "\nDivision is: ", a / b, "\nModulus is: ", a % b)
 
 
-m = float(input("Enter a number: "))
-n = float(input("Enter another number: "))
+m, n = float(input("Enter value for m :\t ")), float(input("Enter value for n :\t"))
 arithmetic_operations(m, n)
