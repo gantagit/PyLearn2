@@ -9,8 +9,11 @@ num_2 = 1
 fact = 0
 total_range = int(input("Enter the total range : \t"))
 
-for i in range(total_range):
-    fact = num_1 + num_2
-    num_1 = num_2
-    num_2 = fact
-    print(fact)
+if total_range >= 1:
+    for i in range(total_range):
+        fact = num_1 + num_2
+        num_1 = num_2
+        num_2 = fact
+        print(fact)
+else:
+    print("Invalid range")
