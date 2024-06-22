@@ -1,26 +1,30 @@
-# None
+# Add two numbers
 
-# None is not a default value
-# None is not a zero or empty String
-# None is not the same as false
-# No operation is allowed for None
-# None is used to declare
+num1 = input("Enter number 1 : ")
+num2 = input("Enter number 2 : ")
 
-val = None
-print(val)
+total = num1 + num2  # str concatenation (by default input returns string)
+sum_of_two_numbers = int(num1) + int(num2)  # converted to int and it will be sum here
+print("The sum is : ", total, sum_of_two_numbers, sep="\n")
 
-# val = val+1
+print("The sum is : ", int(total), sep="\n")
+print(type(int(num1)))
+print(int(num1))
 
-print(val)
-print(id(val))
-print(type(val))
+# +  ->  int sum operation
+# +  ->  str concatenation operation
 
-val = "Vijay"
-print(val)
-print(id(val))
-print(type(val))
+# int to str -> str()
+# str to int -> int()
 
-val = 123
-print(val)
-print(id(val))
-print(type(val))
+#
+# def total(num1, num2):
+#     return num1+num2
+#
+#
+# #total = num1+num2
+# print("The sum is : ",total(num1, num2))
+#
+# num1 = int(input("Enter number 1 : "))
+# num2 = int(input("Enter number 2 : "))
+

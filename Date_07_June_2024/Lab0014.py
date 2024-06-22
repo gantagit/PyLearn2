@@ -1,35 +1,20 @@
-# List
+# strings raw and format
+# import os
 
-shopping_list = ["milk", "eggs", "bread", "apples"]
-print(len(shopping_list))
-print(shopping_list)
-print(type(shopping_list))
+directory = r'C:\Users\gvk97\PycharmProjects\PyLearn2\Day_07062024'  # here r represents for the raw string
+print(f"current directory is {directory}")  # here f represents for format
 
-print(shopping_list[0])
-print(shopping_list[-1])
+# drive = os.getcwd()
+# print(drive)
 
-shopping_list.append("bananas")  #add to the end
-print(shopping_list)
+# formatting mechanism
 
-shopping_list.insert(0, "chocolate")  # add to the beginning (index 0)
-shopping_list.insert(1, "coffee")  # insert at the index 1
-print(shopping_list)
+num = 90
 
-shopping_list.extend(["mango", "pineapple"])  # add multiple items to the end
-print(shopping_list)
+print(f"the number is {num}")
+print(f"the number is {num*2}")
+print(f"the number is {num*3}")
 
-shopping_list.remove("coffee")  # remove item
-print(shopping_list)
-
-shopping_list.pop()  # remove last item
-print(shopping_list)
-
-print(shopping_list.index("milk")) # get index of item
-print(shopping_list.count("milk")) # get count of item
-
-shopping_list.sort()  # sort list
-print(shopping_list)
-
-shopping_list.reverse() # reverse list
-print(shopping_list)
-
+b = 1
+print("2*{} = {},{}". format(b, b * 2, 3)) # This is just for reference
+print("3*{} = {}".format(b,3))  # This is just for reference

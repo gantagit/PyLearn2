@@ -1,17 +1,8 @@
-# List
+# divide two numbers
 
-shopping_list = ["milk", "eggs", "bread", "apples"]
-print(len(shopping_list))
-print(shopping_list)
-print(type(shopping_list))
+num1 = input("Enter number 1 : ")
+num2 = input("Enter number 2 : ")
 
-shopping_list[0] = "Vijay"
-print(len(shopping_list))
-print(shopping_list)
-print(type(shopping_list))
-
-shopping_list.append("Banana")
-print(len(shopping_list))
-print(shopping_list)
-print(type(shopping_list))
-
+result = int(num1) / int(num2)
+print("Result is : ", result)
+print(type(result))

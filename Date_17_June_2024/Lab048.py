@@ -9,4 +9,7 @@ def arithmetic_operations(a, b):
 
 m, n = float(input("Enter value for m :\t ")), float(input("Enter value for n :\t"))
 arithmetic_operations(m, n)
+print("\n")
 arithmetic_operations(10, 3)
+print("\n")
+arithmetic_operations(b=2.5, a=5)

@@ -1,15 +1,19 @@
-# Escape Sequence
-# \n - new line
-# \t - tab
-# \" - double quote
-# \' - single quote
+# strings
 
-print("Hello World")
-print("Hello \nWorld")
-print("Hello \tWorld")
-print("Hello \"World")
-print('Hello \'World')
-print("Hello \bworld")
-print("Hello \aworld")
+name = "John"
+print(name)
+name = 'John'
+print(name)
 
+name = """John
+is 
+very
+goog
+"""
+print(name)
 
+name = '''John
+is 
+very
+goog'''
+print(name)
