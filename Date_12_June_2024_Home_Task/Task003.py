@@ -13,4 +13,7 @@ elif number_for_factorial == 0:
 else:
     for i in range(1, number_for_factorial, 1):
         number_for_factorial *= i
+        print(number_for_factorial)
+        print(i)
 print("Factorial is ", number_for_factorial)
+
