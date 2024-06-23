@@ -1,20 +1,16 @@
 # Functions Scope and Lifetime
-# Function within another function
+# Function with arguments list
 
-def outer_func():
-    outer_func_a = 10
 
-    def inner_func_1():
-        print("adding 1 to the variable of outer function: ", outer_func_a + 1)
+numbers = [1, 2, 3, 4, 5]
 
-    #  inner_func_1()
 
-    def inner_func_2():
-        print("adding 2 to the variable of outer function: ", outer_func_a + 2)
+def display_list(num):
+    num.append(7)
+    num[0] = 10
+    return numbers
 
-    inner_func_2()
 
-    print("variable of outer function: ", outer_func_a)
-    return inner_func_1()
-
-outer_func()
+numbers.append(6)
+result = display_list(numbers)
+print(result)
