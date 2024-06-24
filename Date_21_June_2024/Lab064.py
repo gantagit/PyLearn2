@@ -18,4 +18,4 @@ t6 = tuple(t5)  # copying a tuple
 print(t6)
 
 del t1  # delete a tuple
-print(t1) this will not print as the t1 tuple is already deleted
+# print(t1) this will not print as the t1 tuple is already deleted
