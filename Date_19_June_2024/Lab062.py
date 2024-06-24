@@ -23,6 +23,12 @@ print("lambda for double an item ", doubles_item(10))
 # 4. The list() function converts the map object to a list
 
 list_1.append(5)
-
 double_list_1 = list(map(doubles_item, list_1))
 print("This is double list using lambda & map \n", double_list_1)
+
+# reduce further code
+list_1.append(6)
+# doubles_item = lambda num: num * 2
+# here the lamda code is provided to reduce one more line
+double_list_2 = list(map(lambda num: num * 2, list_1))
+print("This is double list using lambda & map \n", double_list_2)
