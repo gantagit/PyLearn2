@@ -14,7 +14,7 @@ print("lambda for double an item ", doubles_item(10))
 
 # +++++++++++++++++++++Double each item of the list using lambda and map++++++++++++++++++++++++++++++++++++
 
-# Map(0
+# Map()
 # 1. Takes Each item from the list
 # 2. Execute the function on it
 # 3. Return same number of elements (list)
@@ -32,3 +32,4 @@ list_1.append(6)
 # here the lamda code is provided to reduce one more line
 double_list_2 = list(map(lambda num: num * 2, list_1))
 print("This is double list using lambda & map \n", double_list_2)
+
