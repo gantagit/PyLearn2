@@ -12,6 +12,12 @@ print(list_1)
 list_1.insert(3, 9)
 print(list_1)
 
+list_1.sort()
+print(list_1)
+
+list_1.reverse()
+print(list_1)
+
 list_1.extend(list_2)
 print(list_1)
 
