@@ -31,3 +31,5 @@ match perform:
         print(cal.power())
     case _:
         print("Invalid Input")
+
+print('Done')
