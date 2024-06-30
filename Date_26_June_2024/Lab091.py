@@ -16,28 +16,21 @@ class Calc:
     def power(self):
         return self.a ** self.b
 
-    # def perform_operation(self):
-    #     match self.perform:
-    #         case 1:
-    #             return Calc.add(self.a, self.b)
-    #         case _:
-    #             print("Invalid Input")
-
 # def perform_operation(perform):
-#     match perform:
-#         case 1:
-#             return Calc.add(self)
-#         case 2:
-#             return Calc.minus()
-#         case 3:
-#             print(cal.multiply())
-#         case 4:
-#             print(cal.divide())
-#         case 5:
-#             print(cal.modulo())
-#         case 6:
-#             print(cal.floor_div())
-#         case 7:
-#             print(cal.power())
-#         case _:
-#             print("Invalid Input")
+# match perform:
+#     case 1:
+#         print(cal.add())
+#     case 2:
+#         print(cal.minus())
+#     case 3:
+#         print(cal.multiply())
+#     case 4:
+#         print(cal.divide())
+#     case 5:
+#         print(cal.modulo())
+#     case 6:
+#         print(cal.floor_div())
+#     case 7:
+#         print(cal.power())
+#     case _:
+#         print("Invalid Input")
