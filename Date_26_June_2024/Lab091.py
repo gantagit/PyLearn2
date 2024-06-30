@@ -16,6 +16,12 @@ class Calc:
     def power(self):
         return self.a ** self.b
 
+    # def perform_operation(self):
+    #     match self.perform:
+    #         case 1:
+    #             return Calc.add(self.a, self.b)
+    #         case _:
+    #             print("Invalid Input")
 
 # def perform_operation(perform):
 #     match perform:
