@@ -1,4 +1,4 @@
-# Leetcode program = sum of digits
+Leetcode program = sum of digits
 
 number = int(input("Enter a number: "))
 
