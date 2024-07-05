@@ -1,4 +1,3 @@
-
 a = (1 == True)
 b = (1 == False)
 c = (0 == True)

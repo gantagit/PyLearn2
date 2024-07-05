@@ -5,4 +5,3 @@ def make_pizza(*toppings, base):
 
 
 make_pizza("tomato", "cheese", base="thin crust")
-

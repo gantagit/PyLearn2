@@ -20,4 +20,3 @@ print(age2)
 # Hexadecimal Number System
 age3 = 0x1b
 print(age3)
-

@@ -14,4 +14,3 @@ shopping_list.append("Banana")
 print(len(shopping_list))
 print(shopping_list)
 print(type(shopping_list))
-

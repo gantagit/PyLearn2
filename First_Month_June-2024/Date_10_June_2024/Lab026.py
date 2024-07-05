@@ -18,5 +18,4 @@ print("a / b = ", a / b)
 print("a % b = ", a % b)
 print("a ** b = ", a ** b)  # power of a number
 print("a ++ b = ", pow(a, b))  # power of a number
-print("a // b = ", a // b) # returns integer and Quotient
-
+print("a // b = ", a // b)  # returns integer and Quotient

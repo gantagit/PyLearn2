@@ -24,8 +24,7 @@ class Rect(Shape):
         self.breadth = breadth
 
     # def area(self):
-        # print("Area of a rectangle is", self.length * self.breadth)
-
+    # print("Area of a rectangle is", self.length * self.breadth)
 
 
 area_circle = Circle(5)

@@ -13,7 +13,7 @@ else:
     print("a is equal to b")
 
 # The above can be done using max() function as well
-print("Maximum of {} and {} is {}".format(a,b, max(a, b)))
+print("Maximum of {} and {} is {}".format(a, b, max(a, b)))
 
 #  +++++++++++++++++++++++++++++++++++++++++++++++++++++
 # Program to find the smallest of three float numbers
@@ -29,4 +29,4 @@ else:
     print("z is the smallest")
 
 # The above can be done using max() function as well
-print("Maximum of {} and {} and {} is {}".format(x,y,z, min(x, y, z)))
+print("Maximum of {} and {} and {} is {}".format(x, y, z, min(x, y, z)))

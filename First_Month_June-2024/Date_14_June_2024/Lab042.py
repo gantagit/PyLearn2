@@ -2,7 +2,7 @@
 # match case (Similar to Switch case Java)
 browser = str(input("Enter the browser name:\t"))
 
-match browser.lower():   # here lower() is used to convert the input string in lower case
+match browser.lower():  # here lower() is used to convert the input string in lower case
     case "edge":
         print("You have opened the Edge browser")
     case "firefox":

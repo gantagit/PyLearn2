@@ -10,7 +10,7 @@ else:
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # 2) What does the ** operator do in python and how is it used
 # Here ** is operator is used as power
-print("a power of b is ", (a**b))
+print("a power of b is ", (a ** b))
 # the above line is similar to
 # print("a power of b is ", math.pow(a,b))
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -21,7 +21,4 @@ print("a power of b is ", (a**b))
 # then x ^ y = 6 (110 in binary)
 x = 5
 y = 3
-print("XOR of {},{} =  {}".format(x, y, x^y))  # Output: XOR of a, b = 6.format(x, y, x^y))
-
-
-
+print("XOR of {},{} =  {}".format(x, y, x ^ y))  # Output: XOR of a, b = 6.format(x, y, x^y))

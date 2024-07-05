@@ -8,7 +8,7 @@ he_is_bad = False
 
 pi = 3.14
 
-print(type(name), type(age), type(pi),  type(i_am_good), type(he_is_bad))
+print(type(name), type(age), type(pi), type(i_am_good), type(he_is_bad))
 print(name, age, pi, i_am_good, he_is_bad)
 
 complex_number = 1 + 2j

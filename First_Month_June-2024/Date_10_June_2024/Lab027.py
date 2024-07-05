@@ -14,8 +14,6 @@ print("a != b = ", a != b)  # to check a is not equal to b
 # more
 print("a == b and a > b = ", a == b and a > b)  # to check both conditions are true
 print("a == b or a > b = ", a == b or a > b)  # to check either of the conditions are true
-print("not(a == b and a > b) = ", not(a == b and a > b))  # to check both conditions are not true
-print("not(a == b or a > b) = ", not(a == b or a > b))  # to check either of the conditions are not true
+print("not(a == b and a > b) = ", not (a == b and a > b))  # to check both conditions are not true
+print("not(a == b or a > b) = ", not (a == b or a > b))  # to check either of the conditions are not true
 print("a is b = ", a is b)  # to check a is b and it is used for object identity.
-
-

@@ -12,4 +12,3 @@ for k, v in my_dict.items():  # to check specific key is present in dictionary o
 
 verify = 'b' in my_dict  # other way to check specific key is present in dictionary or not
 print("b is present in my dictionary")
-

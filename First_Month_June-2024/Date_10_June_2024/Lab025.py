@@ -22,7 +22,7 @@ else:
 # unary operators
 x = 36
 y = -1
-z = x + y # BODMAS principle in math
+z = x + y  # BODMAS principle in math
 print("value of x = {}, y = {},  z = {}".format(x, y, z))
 
 # NOT operator

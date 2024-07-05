@@ -1,4 +1,7 @@
-Leetcode program = sum of digits
+Leetcode
+program = sum
+of
+digits
 
 number = int(input("Enter a number: "))
 
@@ -20,7 +23,6 @@ n2 = number1 // 10
 q1 = number1 % 10
 
 print(n2, q1)
-
 
 # without recursion
 

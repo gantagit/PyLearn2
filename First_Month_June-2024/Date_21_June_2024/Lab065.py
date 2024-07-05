@@ -14,7 +14,5 @@ print(hero_3[1])  # prints second element of hero_3 tuple
 print(hero_3[0][0])  # prints first item of first element of hero_3 tuple
 print(hero_3[0][1])  # prints second item of first element of hero_3 tuple
 
-print(hero_3[1][0]) # prints first item of second element of hero_3 tuple
+print(hero_3[1][0])  # prints first item of second element of hero_3 tuple
 print(hero_3[1][1])  # prints second item of second element of hero_3 tuple
-
-

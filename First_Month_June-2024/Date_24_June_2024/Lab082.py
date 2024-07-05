@@ -7,4 +7,3 @@ print(list(map(square, numbers)))  # map will perform on all the items and retur
 
 even = lambda num: num % 2 == 0
 print(list(filter(even, numbers)))  # filter will perform on all the items and return only the items which are true
-

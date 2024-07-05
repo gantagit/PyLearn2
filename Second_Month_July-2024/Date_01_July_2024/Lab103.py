@@ -27,7 +27,7 @@ ch = Child()
 ch.mother_method()
 ch.father_method()
 ch.child_method()
-print(ch.gold) # Method 1
-print(Child.gold) # Method 2
-print(Mother.gold) # Method 3
-print(Father.gold) # Method 4
+print(ch.gold)  # Method 1
+print(Child.gold)  # Method 2
+print(Mother.gold)  # Method 3
+print(Father.gold)  # Method 4

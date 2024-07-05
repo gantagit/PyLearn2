@@ -20,5 +20,3 @@ class Person:
 
     def see(self):  # No Arguments passing and Returns
         return print("I am seeing")
-
-

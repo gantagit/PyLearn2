@@ -19,6 +19,3 @@ set1.pop()
 print(set1)  # Output: {1, 2, 3, 5, 7, 8, 9, 10, 11, 12, 13}
 # pop will remove the first item of the set
 print(len(set1))  # Output: 11
-
-
-

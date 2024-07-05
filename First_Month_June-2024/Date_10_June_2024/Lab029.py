@@ -12,7 +12,7 @@ import math
 # core logic = pi*r*r
 
 
-print("area of circle = ", math.pi*(math.pow(float(input("Enter the radius \n")), 2)))
+print("area of circle = ", math.pi * (math.pow(float(input("Enter the radius \n")), 2)))
 # math.pow returns float value
 # print("area of circle = ", math.pi*(float(input("Enter the radius \n"))**2))
 

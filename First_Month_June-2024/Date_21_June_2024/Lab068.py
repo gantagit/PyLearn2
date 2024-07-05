@@ -10,7 +10,6 @@ set_1 = set(list_1)
 print(set_1)  # prints unique items from list_1
 print(len(set_1))
 
-
 list_2 = [2.5, 3.14, 3.14, "Vijay", "Ganta", "vijay"]
 set_2 = set(list_2)
 print(set_2)  # prints unique items from list_2

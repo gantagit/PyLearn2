@@ -8,7 +8,7 @@ print(type(shopping_list))
 print(shopping_list[0])
 print(shopping_list[-1])
 
-shopping_list.append("bananas")  #add to the end
+shopping_list.append("bananas")  # add to the end
 print(shopping_list)
 
 shopping_list.insert(0, "chocolate")  # add to the beginning (index 0)
@@ -24,12 +24,11 @@ print(shopping_list)
 shopping_list.pop()  # remove last item
 print(shopping_list)
 
-print(shopping_list.index("milk")) # get index of item
-print(shopping_list.count("milk")) # get count of item
+print(shopping_list.index("milk"))  # get index of item
+print(shopping_list.count("milk"))  # get count of item
 
 shopping_list.sort()  # sort list
 print(shopping_list)
 
-shopping_list.reverse() # reverse list
+shopping_list.reverse()  # reverse list
 print(shopping_list)
-

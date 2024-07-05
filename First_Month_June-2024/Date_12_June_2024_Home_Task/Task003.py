@@ -16,4 +16,3 @@ else:
         print(number_for_factorial)
         print(i)
 print("Factorial is ", number_for_factorial)
-
