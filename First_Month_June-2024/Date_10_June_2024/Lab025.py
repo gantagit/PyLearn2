@@ -35,4 +35,4 @@ print("IS operator")
 
 list1 = [1, 2, 3, 4, 5]
 list2 = [1, 2, 3, 4, 6]
-print(list1 is list2)
+print(list1 is list2) # this is same as print(list1 == list2)

@@ -27,4 +27,4 @@ print(name[0], name[1], name[2], name[3], sep='-')
 # python - strings are immutable - Can't be changed
 name[0] = 'p'
 print(name)
-#  you can replace the new but it cannot be changed
+#  you can replace with new but it cannot be changed

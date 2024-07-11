@@ -6,7 +6,7 @@
 # Two types of functions
 # Built-in functions
 
-# User defined functions
+# Types of User defined functions
 # -> They can return something
 # -> They can't return - > Non-return
 # -> They can take arguments / arguments
