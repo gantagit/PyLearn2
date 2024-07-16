@@ -18,3 +18,11 @@ API Testing Notes
 * POSTMAN Basics
 
 https://app.heartbeat.chat/sdet/t/pytb3x-only/34e0e6aa-7d44-4995-b840-dd45c1305702
+Notes:
+    https://app.eraser.io/workspace/zPGHlPfHMUi1uDB0tyqX
+Slides:
+    https://docs.google.com/presentation/d/1TZziGLdErbf-JlVRuh6BuVmxHBFsSVrQcbJ_52gSm_o/edit#slide=id.p
+Req, Test Plan, Test Case, Test Execution:
+    https://drive.google.com/drive/folders/116iv0uHaI8ZOpfYaGN_AKe77Gvk2HDUM
+API Automation:
+https://github.com/PramodDutta/Py2xAPIAutomationFramework
