@@ -5,3 +5,4 @@ Http Status Code
 3xx redirection – further action needs to be taken in order to complete the request
 4xx client error – the request contains bad syntax or cannot be fulfilled
 5xx server error – the server failed to fulfil an apparently valid request
+
