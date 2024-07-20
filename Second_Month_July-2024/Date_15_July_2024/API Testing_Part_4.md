@@ -162,7 +162,29 @@ https://www.dataaccess.com/webservicesserver/numberconversion.wso?op=NumberToWor
 Collection
 https://api.postman.com/collections/37107034-341d8be9-9797-4c50-a445-4b72966eff76?access_key=
 
-Test Cases
+Test Cases & Collection
+https://github.com/gantagit/PyLearn2/tree/master/Second_Month_July-2024/Date_15_July_2024
+
+Node install
+https://nodejs.org/en/download/package-manager
+
+After install
+go to terminal node --version, npm --version
+
+newman command line tool to run the postman collection and create html report
+npm install -g newman
+newman --version
+
+install newman html extra 
+npm install -g newman-reporter-htmlextra
+
+to generate report 
+newman run collection.json -r htmlextra
+
+to open the html report of the test run of the api collection
+explorer "API Testing - SOAP Project #1-2024-07-20-18-00-29-909-0.html"
+
+
 
 
 
