@@ -182,7 +182,7 @@ to generate report
 newman run collection.json -r htmlextra
 
 to open the html report of the test run of the api collection
-explorer "API Testing - SOAP Project #1-2024-07-20-18-00-29-909-0.html"
+explorer "SOAP Project #1-2024-07-20-18-00-29-909-0.html"
 
 
 
