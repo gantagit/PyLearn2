@@ -36,7 +36,7 @@ Import REST API project into the postman | Collection & Test Cases
     b) Module we have to test
     c) Create a collection based on that
 
-API Documentation
+# With API Documentation
 1) CURL Request
 2) URL's
 3) HTTP methods - GET, POST, PUT, PATCH, DELETE
@@ -61,3 +61,4 @@ Javascript - Postman Automation
 Write Postman Testcases in Collection
 API Automation framework Request + PyTest + Allure Report
 
+# Without API Documentation

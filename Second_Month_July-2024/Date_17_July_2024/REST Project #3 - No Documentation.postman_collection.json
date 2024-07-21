@@ -1,0 +1,266 @@
+{
+	"info": {
+		"_postman_id": "dd597951-0967-4b37-be25-1f35c661641d",
+		"name": "REST Project #3 - No Documentation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37107034"
+	},
+	"item": [
+		{
+			"name": "AwesomeQA",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-GB,en;q=0.9,en-US;q=0.8"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "language=en-gb; currency=USD; OCSESSID=d09888a262ca6b00050b16aa92; sessionId=746684c8-b3f6-4361-908b-6d796fb4cfcd"
+							},
+							{
+								"key": "Origin",
+								"value": "https://awesomeqa.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://awesomeqa.com/ui/index.php?route=account/register"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Microsoft Edge\";v=\"126\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "X-Requested-With",
+								"value": "XMLHttpRequest"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "customer_group_id",
+									"value": " 1",
+									"type": "text"
+								},
+								{
+									"key": "firstname",
+									"value": "VJ",
+									"type": "text"
+								},
+								{
+									"key": "lastname",
+									"value": "G",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "test@test.com1",
+									"type": "text"
+								},
+								{
+									"key": "telephone",
+									"value": " 123456",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "s1234567",
+									"type": "text"
+								},
+								{
+									"key": "confirm",
+									"value": "s1234567",
+									"type": "text"
+								},
+								{
+									"key": "newsletter",
+									"value": " 0",
+									"type": "text"
+								},
+								{
+									"key": "agree",
+									"value": " 1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://awesomeqa.com/ui/index.php?route=account/register",
+							"protocol": "https",
+							"host": [
+								"awesomeqa",
+								"com"
+							],
+							"path": [
+								"ui",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "route",
+									"value": "account/register"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-GB,en;q=0.9,en-US;q=0.8"
+							},
+							{
+								"key": "Cache-Control",
+								"value": "max-age=0"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Cookie",
+								"value": "language=en-gb; currency=USD; OCSESSID=d09888a262ca6b00050b16aa92; sessionId=64fcbb63-958e-4d4e-a843-54e2fc5bbb1d"
+							},
+							{
+								"key": "Origin",
+								"value": "https://awesomeqa.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://awesomeqa.com/ui/index.php?route=account/login"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "document"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "navigate"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-origin"
+							},
+							{
+								"key": "Sec-Fetch-User",
+								"value": "?1"
+							},
+							{
+								"key": "Upgrade-Insecure-Requests",
+								"value": "1"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Not/A)Brand\";v=\"8\", \"Chromium\";v=\"126\", \"Microsoft Edge\";v=\"126\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "test@test.com1",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "s1234567",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://awesomeqa.com/ui/index.php?route=account/login",
+							"protocol": "https",
+							"host": [
+								"awesomeqa",
+								"com"
+							],
+							"path": [
+								"ui",
+								"index.php"
+							],
+							"query": [
+								{
+									"key": "route",
+									"value": "account/login"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
