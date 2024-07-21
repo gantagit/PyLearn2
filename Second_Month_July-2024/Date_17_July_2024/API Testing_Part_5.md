@@ -49,7 +49,10 @@ Example :
 1. restful booking project
     a) REST API's, what you can - CRUD Operation 
         C - Create, R - Read \ fetch, U - Update, D - Delete
-    b) 
+    b)
+
+Test cases for Create Booking
+![Test Cases for Create Booking.png](Test%20Cases%20for%20Create%20Booking.png)
 
 
 
