@@ -54,7 +54,8 @@ Example :
 Test cases for Create Booking
 ![Test Cases for Create Booking.png](Test%20Cases%20for%20Create%20Booking.png)
 
-
+Example of Integration Scenarios
+![Integration Scenarios.png](Integration%20Scenarios.png)
 
 Javascript - Postman Automation
 Write Postman Testcases in Collection
