@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Wed Jul 24 21:15:37 BST 2024","Wed Jul 24 21:15:37 BST 2024","1","Second_Month_July-2024.Date_22_July_2024","test_Lab180","","","","TC2 - regression tests","Test cases to verify 2/1=="
-"passed","Wed Jul 24 21:15:37 BST 2024","Wed Jul 24 21:15:37 BST 2024","0","Second_Month_July-2024.Date_22_July_2024","test_Lab180","","","","TC1 - Sanity Check","Test cases to verify 2+2==4"
-"passed","Wed Jul 24 21:15:37 BST 2024","Wed Jul 24 21:15:37 BST 2024","0","Second_Month_July-2024.Date_22_July_2024","test_Lab180","","","","TC5 - smoke tests","Test cases to 2/1==2"
-"skipped","Wed Jul 24 21:15:37 BST 2024","Wed Jul 24 21:15:37 BST 2024","0","Second_Month_July-2024.Date_22_July_2024","test_Lab180","","","","TC4 - skip tests","Test cases to 2+2==-4"
-"passed","Wed Jul 24 21:15:37 BST 2024","Wed Jul 24 21:15:37 BST 2024","0","Second_Month_July-2024.Date_22_July_2024","test_Lab180","","","","TC3 - smoke tests","Test cases to 2+2==4"

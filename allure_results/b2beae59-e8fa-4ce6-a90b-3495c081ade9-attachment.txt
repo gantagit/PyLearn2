@@ -1,0 +1,2 @@
+{'firstname': 'Sally', 'lastname': 'Smith', 'totalprice': 247, 'depositpaid': True, 'bookingdates': {'checkin': '2020-03-11', 'checkout': '2023-04-25'}}
+<Response [200]>
