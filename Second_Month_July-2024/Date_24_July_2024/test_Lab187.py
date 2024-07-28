@@ -69,7 +69,9 @@ def test_update_booking():
         },
         "additionalneeds": "Breakfast"
     }
-    put_url = booking_url + "/" + str(create_booking())
+    booking_id = str(create_booking())
+    print(booking_id)
+    put_url = booking_url + "/" + booking_id
     update_headers = {
         "Content-Type": "application/json",
         "Cookie": "token=" + create_token()
@@ -79,3 +81,20 @@ def test_update_booking():
     assert response_data["firstname"] == "VJ"
     assert response_data["lastname"] == "GANT"
     assert response_data["depositpaid"] == False
+
+
+@allure.title("TC#2 Delete booking")
+@allure.description("Test Case to verify Delete booking")
+@pytest.mark.crud
+def test_delete_booking():
+    booking_id = str(create_booking())
+    print(booking_id)
+    delete_url = booking_url + "/" + booking_id
+    delete_headers = {
+        "Content-Type": "application/json",
+        "Cookie": "token=" + create_token()
+    }
+    response = requests.delete(url=delete_url, headers=delete_headers)
+    # response_data = response.json()
+    assert response.text == "Created"
+    assert response.status_code == 201
